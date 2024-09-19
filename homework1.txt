@@ -1,2 +1,49 @@
 
 Homework 1 
+
+CISC 3300 SP24 
+Homework 1 
+1. What is HTML? What does it do? 
+HTML is a markup language which is a set of rules that defines how the layout and presentation of text and images should appear in a digital document. It allows structuring documents, adding formatting, and specifying how different elements should be displayed (or “rendered”) on webpages.
+2. What is CSS? What does it do? 
+CSS stands for Cascading Style Sheets and it lets us style our pages to make them more appealing and increase usability.We use it to create rules that specify how content should appear.
+
+3. Access https://www.fordham.edu/. In your own words, describe how this webpage uses structure to convey meaning and navigation options to the user. 
+
+The school’s name is in big red text in front of a white banner on the left side of the site which brings attention to it. This is to make it obvious what site people are on
+When you move your cursor towards the images advertising articles, the title becomes 
+underlined showing you that it is a link you can click and navigate to
+Articles that the school wants you to look at more and think you will find most interesting is shown bigger with bigger text to encourage users to navigate towards it 
+Smaller articles are shown in smaller boxes and smaller headings 
+The toggle and tab options are in small text and separated by brackets so users know that they are links to different spaces on the site
+Each section on the website is divided by border and background color to show a switch in information or space
+Bottom of site has a footer to show more links with additional information as well as contact information 
+
+4. What is an HTML element? Tag? Attribute? 
+
+HTML elements are building blocks of web pages, representing different types of content such as headings, paragraphs, links, and images. They are encased in brackets and the contents in them are then displayed on the site
+
+A tag is like a container that transform the content in them when HTML is interpreted 
+Attributes tells us more about elements by providing additional information about the contents of an element
+
+
+5. What are the parts of a CSS rule? 
+
+It has two parts. A selector and a declaration. The selector is the element you want to change and the declaration is how you want to change it 
+
+6. Explain how CSS rules cascade. 
+
+The more complex a rule is the higher priority it will have
+If a rule is a parent rule than the rule will trump over conflicting child rules unless overridden
+If two rule are of same complexity than the rule that came later will take priority
+If you tag a rule as important than it will take priority and is used as a method to ignore hierarchy 
+
+
+7. If you have a directory called project-1 that contains two subdirectories, html-files and images. In the html-files directory you have an HTML file called html-1.html that has an img element with a src attribute, write out the value of the src attribute to access an image file called pinecone.jpg in the images directory. 
+
+<img src="../images/pinecone.jpg">
+
+8. What is the default behavior when submitting a HTML form? 
+
+	The default action for a form is to try and send the data to the current webpage. It will show in the link of the site
+a
