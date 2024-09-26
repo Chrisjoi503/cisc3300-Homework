@@ -1,2 +1,8 @@
+Compare and contrast Flexbox and CSS grid, how are they alike and how are they
+different? 
 
-mewkj
+Flexbox is a 1d layout system while CSS grid is a 2d Layout system. This means that Css
+grid can create more complex layout due to its flexibility. In flexbox the boxes line up 
+according to their container but for Css grid the container is based off of your rows and columns
+of boxes and you have more control over where they are placed on the screen. 
+
