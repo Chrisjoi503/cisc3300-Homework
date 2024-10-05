@@ -1,0 +1,37 @@
+    1. Is javascript? How does an interpreted programming language differ from a
+    compiled language?
+    
+    Javascript is a programming language that is lightweight and is commonly used for
+    adding dynamic interactions to webpages, applications, servers and as well as games.
+    
+    2. Contrast dynamically typed programming languages with statically typed ones. And
+    contrast strongly typed programming languages with weakly typed ones. (google these)
+    
+    Dynamically typed programming languges check a variable's type during run-time rather then compile time 
+    while statically typed ones does the opposite, as in the programming language will determine a variable's
+    type during compilation instead of run-time. So Dynamically typed language is able to have more flexible and expressive code unlike
+    statically typed ones. Trying to assign a different type to a variable in statically typed programming languages will result in a 
+    compile-time error, and in dynamically typed programming languages it can be more difficult to locate type errors.
+    
+    While strongly typed programming languages are strict with data type rules and ensuring that each variable is explicitly declared with a specific 
+    type and is not used in a way that contradicts that type, weakly typed ones are flexible in how they handle data types such that variables are able
+    to be assigned many data types. Strongly typed programming languages check for type mismatches to prevent potential errors and weakly typed ones 
+    handle ype conversions dynamically. 
+    
+    3. What is the difference between var, let, and const when declaring variables in JS?
+    
+    var is global and function scoped and let and const is block scoped. Both Var and Let are redeclarable but const is not.
+    
+    4. What are anonymous functions? Higher order functions? Callback functions? First class
+    functions?
+    
+    Anonymous functions are functions with no name. Higher order functions are functions that return a function or take 
+    other functions as arguments. Callback functions are passed as an argument to another function to be called later. 
+    And lastly a first class function is when functions in that language are treated like any other variables.
+    
+    
+    5. Define objects in JavaScript.
+    
+    Objects in JavaScript are non-primitive data types and are a collection of properties being that a property is an association 
+    between a name and a value. That value can be a function, in such cases that property will then be known as a method.
+    
