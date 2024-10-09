@@ -1,0 +1,19 @@
+1. What is the DOM? What is meant by the DOM tree?
+DOM satnds for document object model and it is an API. It is used to specify how a HTML page is modeled in browsers and how JavaScript can access and update the contents of 
+a web page while it is in the browser window. A DOM tree is the model of the page your browser creates when it loads a webpage. It is stored in the browser's memory and consists
+of four type of nodes, document, element, attribute, and text. We use these nodes to locate where we want to work and ascess its contents
+
+2. What is an XSS attack? How do they work? How can you guard against them?
+An XSS attack is when a malicious user adds code to input that is taken as html which can run for different users and allow the attacker to gain access to other
+user's acounts. To guard against these attacks it is important to validate the input and strip it of potential malicious intnet by removing tags,esacping charcters,
+and more. 
+
+3. What is an event in JavaScript?
+An event in JavaScript triggers code as a response to these events which consists of actions from or relating to UI, keyboard, 
+Mouse, focus, form, and mutation. 
+
+4. How does a DOM eventListener work? What are the parameters it is expecting?
+A DOM eventListener deal with more than one function at a time and is used to handle events. It works by setting up a function 
+that will be called when a specific event is delivered to the target. The parameters it is expecting is 
+
+5. What is jQuery? Why use it? How do we load jQuery onto a page?
