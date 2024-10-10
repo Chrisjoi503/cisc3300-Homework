@@ -14,6 +14,12 @@ Mouse, focus, form, and mutation.
 
 4. How does a DOM eventListener work? What are the parameters it is expecting?
 A DOM eventListener deal with more than one function at a time and is used to handle events. It works by setting up a function 
-that will be called when a specific event is delivered to the target. The parameters it is expecting is 
+that will be called when a specific event is delivered to the target. The parameters it is expecting is the event it is listening for and the
+function it callls when that event occurs
 
 5. What is jQuery? Why use it? How do we load jQuery onto a page?
+It is a lightweight javascript library that allows you to writeless and do more. Its purpose is to make it easier 
+to use javascript on websites. It works by taking a lot of common tasks that takes a lot of lines of javascript to 
+accomplish and wrapping them into methods that an be called with a single line of code. This saves time for developers
+as well as make code more clean and easy to understand by simplifying it. To load JQuery on a page is by plugging a
+particular Javascript library code into the rest of your project code on a as needed-bases.
