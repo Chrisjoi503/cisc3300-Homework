@@ -1,0 +1,16 @@
+CISC 3300 F24 
+In class assignment 7 
+1. In order to route incoming requests that aren’t attempting to access specific files to our index.php page, we need to make use of the settings in the ____index_____ file. 
+2. All PHP files must start with a ___opening tag <?php_____. 
+
+3. Variables start with the ___$___ character in PHP. 
+
+4. var_dump: dumps information about one or more variables. The information includes the type and value of the variable(s) - also can print out __non primitive values_____. 
+
+5. ____ => ___ are key value pairs, behave like objects in JS. 
+
+6. Variables will be evaluated in a string if it’s in __double quotes______. 
+
+7. The ____include or require____ statement takes all the text/code/markup that exists in the specified file and copies it into the file that uses it. 
+
+8. When declaring a function we can specify what kind of __datatype____ each argument should be.
