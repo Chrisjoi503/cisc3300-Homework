@@ -1,0 +1,40 @@
+
+Homework 5:
+
+1. What is HTTP? What are the different HTTP request methods and how do they differ?
+
+HTTP stands for hyper text transfer protocol and it is how the internet deals with 
+communication between clients and servers which is done by requests and responses. Or in otherwords it 
+is the foundation of any data exchange on the Web and it is a client-server protocol. The different 
+HTTP request methods are Get, Post, Put, Patch, and Delete. They each have serve a different function. Get requests can include information 
+to the server in the form of Query strings which gets sent in the URL of the Get requests and the rest of the mentioned requests stores
+the data in the request body of the HTTP request. Get only retrieves data, Post creates a new resource, Put updates everything for a resource, 
+Patch artially modifies a resource, and Delete deletes a resource. 
+
+
+2. What is an API? What is JSON?
+
+API stands for Application Program interface and it is a method for two or more computer
+programs or components to communicate with each other. JSON is what the entire internet runs on. It is an open andard file format and data 
+interchange format that store and transmit data objects consisting of attribute–value pairs and arrays or other serializable values 
+using human-readable text.
+
+3. What is AJAX? What is meant by asynchronous code?
+
+AJAX exchanges datawith a webserver behind the scenes to be update webpages asychronously, allowing us to update parts of a webpage without 
+having to reload the whole page.
+
+4. What is REST and what are resources? If my application had a concept called posts and
+was designed in a RESTful way, what would the URI and HTTP request method be to:
+	a. retrieve multiple posts, HTTP GET/posts
+	b. retrieve a single post, HTTP GET/posts/{id}
+	c. save a post, HTTP POSTS/posts/{id}
+	d. update a post, HTTP PUT/posts/{id}
+REST is an architectural style of organizing our code so that requests act upon resources in a standardized way.
+Resources are any information that can be named such as a document or image, a temporal service,
+a collection of other resources, a non-virtual object (e.g., a person), and so on.
+5. Define hoisting and closures in JS.
+Hositing is when each time a script enters a new execution context, variables, functions, arguments are created
+Closures is how for each execution context, the scope is the current execution context's variables object, 
+plus the variables object for each parent execution context.
+

@@ -1,0 +1,24 @@
+{
+  "recipes": [
+    {
+      "title": "Chicken",
+      "description": "Put chicken in oven",
+      "id": "1"
+    },
+    {
+      "title": "Green beans",
+      "description": "Pan fry the beans with salt",
+      "id": "2"
+    },
+    {
+      "title": "Rice",
+      "description": "Wash rich and put in rice cooker",
+      "id": "3"
+    },
+    {
+      "id": 1729053418324,
+      "title": "Eggs",
+      "description": "Crack and cook"
+    }
+  ]
+}
