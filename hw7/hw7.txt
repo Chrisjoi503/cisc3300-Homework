@@ -1,0 +1,29 @@
+1. What is a class? What is an object? What is OOP? 
+    A class is a template for creating objects which makes an object an instance of a class. Unlike in Js it is required in PHP. A variable for an object is a reference to the dynamic dataconsisting 
+of the data we set up in class. OOP is an Object oriented program which as implied by its name, is code that organizes around object and data. It is made of 4 basic princilples which are abstraction, 
+encapsulation, inheritance, and polymorphism. 
+
+2. Why use an abstract class in OOP? 
+    It allows you to have a template for templates. An abstract class is not meant to be instantiated and  provides high level functionality that leaves 
+out certain details to be implemented by the derived class. This lets parent classes create defaults for methods so you do not have to repeat code 
+and have consistency.
+
+3. What are superglobals in PHP, what are some examples of data they provide?
+    Superglobals are built in functions, some examples of data they provide are strings, regular expressions, numbers, arrays, constants, and http headers.
+They are available in all scopes throughout a script.
+
+4. What are the two steps to setting up and using a class via namespaces? 
+First you have to define the namespace in the class that is going to be used. Then in the place taht we want to use the class we have to 
+either type out the full namespace everytime we want to use that class or import the class into the current namespace with use keyword.
+
+
+5. What is MVC? Detail the different parts. 
+MVC is an architectural/design pattern that separates an application into three main logical components Model, View, and Controller.
+The Model component deals with all the data-related logic that the user works with such as data that is being transferred between the View and Controller 
+components or any other business logic-related data. It adds and retrieve data from the database. The controller can not interact with the database 
+on its own so the model respond to the controller's request and provide the required data back.at The controller enables the interconnection between the 
+views and the model so it acts as an intermediary. Lastly The View component is used for all the UI logic of the application and generates a user interface for the user. 
+
+
+
+
