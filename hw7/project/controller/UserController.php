@@ -9,12 +9,10 @@ use project\model\User;
     // method to serve back an html page from the html file in views
     public function html(){
 
-        $this->returnView('./views/ex.html');
+        require "../public/views/ex.html";
     }
 
     // method to serve back JSON data from UserModel get user method 
-
-
     public function getUsers() {
         $userModel = new User();
         $users = $userModel->getAllUsers();

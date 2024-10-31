@@ -17,11 +17,14 @@
                 
             }
             #userArray{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+              
                 border-style: dashed;
                 margin-top: 35px;
+                font-weight: bold;
+                margin-left: auto;
+                margin-right: auto;
+                width: fit-content;
+                padding: 10px;
 
             }
           
@@ -43,7 +46,7 @@
                         $('#userArray').html('') 
                         $.each( data, function( key, value ) {
                             $('#userArray').append(`
-                               <p>${value['areacode']} ${value['name']}</p> `)
+                               <li>Area code:(${value['areacode']}) &nbsp Name: ${value['name']}</li> `)
                         });               
                     }
                 });

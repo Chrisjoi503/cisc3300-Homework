@@ -14,7 +14,7 @@ Class User{
             [
                 'areacode' => '646',
                 'name' => 'Matthew'
-            ]
+            ],
             [
                 'areacode'=>'971',
                 'name'=>'Tracy'
