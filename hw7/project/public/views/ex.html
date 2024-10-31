@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            
+            #title{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-style:15px Arial,sans-serif;
+                font-weight: bolder;
+                color: rgb(72, 107, 235);
+                margin: 0;
+                margin-top: 25px;
+                
+                
+            }
+            #userArray{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-style: dashed;
+                margin-top: 35px;
+
+            }
+          
+        </style>
+    </head>
+    <body>
+        <h1 id="title"> My HTML Page From Views Folder!</h1>
+        <div id="userArray"></div>
+      
+        <!-- ajax code to get JSON DATA -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                const url = 'http://localhost:8888/users';
+                $.ajax({
+                    url: url,
+                    type: "GET",
+                    success: function (data) {   
+                        $('#userArray').html('') 
+                        $.each( data, function( key, value ) {
+                            $('#userArray').append(`
+                               <p>${value['areacode']} ${value['name']}</p> `)
+                        });               
+                    }
+                });
+            })
+    </script>
+
+              
+        
+    </body>
+    
+
+</html>
