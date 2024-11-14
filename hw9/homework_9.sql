@@ -1,16 +1,17 @@
 CREATE DATABASE `homework_9`;
+USE homework_9;
 
 CREATE TABLE `library`
 (
     `id` 				int(11)	NOT NULL AUTO_INCREMENT,
-    `name` 				varchar(80)	NOT NULL AUTO_INCREMENT,
+    `name` 				varchar(80)	NOT NULL ,
      primary key (`id`)
 );
 
 CREATE TABLE `books`
 (
     `id` 					int(11) NOT NULL AUTO_INCREMENT,
-    `name` 					varchar(80)	NOT NULL AUTO_INCREMENT,
+    `name` 					varchar(80)	NOT NULL ,
      primary key (`id`)
     
 );
@@ -34,7 +35,7 @@ VALUES ('Bronx Library');
 INSERT INTO library (name)
 VALUES ('Queens Library');
 INSERT INTO library (name)
-VALUES ('Staten Island Library' Library);
+VALUES ('Staten Island Library');
 
 
 INSERT INTO books (name)
@@ -93,7 +94,7 @@ SELECT *
 FROM books
 ORDER BY name asc;
 
-SELECT name from books join libraryBook on books.id=librayBook.bookId;
+SELECT name from books join libraryBook on books.id=libraryBook.bookId;
 
 UPDATE books SET name = 'Pete the Dog' WHERE id = 6;
 
